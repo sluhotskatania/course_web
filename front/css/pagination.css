@@ -1,0 +1,25 @@
+.pagination-container{
+    display: flex;
+    position: relative;
+    top: 60px;
+    flex: 0 0 auto;
+    margin: 10px 0 10px;
+    caret-color: transparent;
+}
+
+/* Перевизначаємо папаметри bootstrap */
+
+.page-link {
+    color: #d3c4f0;
+    cursor: pointer;
+}
+
+.page-link:hover {
+    color: #000000;
+background-color: #f0edf7;;
+}
+
+.page-item.active .page-link {
+    background-color: #d3c4f0;
+    border-color: #d3c4f0;
+}
